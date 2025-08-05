@@ -13,7 +13,7 @@ import img4 from '../assets/home/slide4.jpg'
 import img5 from '../assets/home/slide5.jpg'
 const Category = () => {
     return (
-        <div className='my-4'>
+        <div className='my-4 '>
       <Swiper
         slidesPerView={4}
         spaceBetween={20}
@@ -22,7 +22,7 @@ const Category = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper lg:my-24"
+        className="mySwiper lg:my-4"
       >
         <SwiperSlide>
              <img src={img1} />
