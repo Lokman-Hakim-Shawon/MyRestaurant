@@ -16,7 +16,7 @@ const Category = () => {
         <div className='my-16 '>
       <Swiper
         slidesPerView={3}
-        spaceBetween={20}
+        spaceBetween={5}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -25,35 +25,35 @@ const Category = () => {
         className="mySwiper lg:my-4 min-h-[1005]"
       >
         <SwiperSlide>
-             <img src={img1} className='h-full'/>
+             <img src={img1} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>salads</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img2} className='h-full'/>
+             <img src={img2} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>soups</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img3} className='h-full'/>
+             <img src={img3} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>pizzas</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img4} className='h-full'/>
+             <img src={img4} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>desserts</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img5} className='h-full'/>
+             <img src={img5} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>salads</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img2} className='h-full'/>
+             <img src={img2} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>soups</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img3} className='h-full'/>
+             <img src={img3} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>pizzas</h1>
         </SwiperSlide>
         <SwiperSlide>
-             <img src={img4} className='h-full'/>
+             <img src={img4} className='h-[30vh] lg:h-full'/>
              <h1 className='lg:text-2xl uppercase text-center lg:-mt-16 text-white hidden lg:block'>desserts</h1>
         </SwiperSlide>
       </Swiper>

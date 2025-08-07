@@ -1,19 +1,7 @@
 import React from 'react';
-import img1 from '../../assets/menu/banner3.jpg'
-import img2 from '../../assets/menu/dessert-bg.jpeg'
-import img3 from '../../assets/menu/banner2.jpg'
-import img4 from '../../assets/menu/pizza-bg.jpg'
-import img5 from '../../assets/menu/salad-bg.jpg'
-import img6 from '../../assets/menu/soup-bg.jpg'
-const MenuList = () => {
-    const list=[
-        {photo:img1,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-        {photo:img2,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-        {photo:img3,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-        {photo:img4,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-        {photo:img5,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-        {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
-]
+
+const MenuList = ({list}) => {
+    
     return (
         <div className='my-8 flex flex-col items-center gap-y-4'>
             <div className='grid lg:grid-cols-2 gap-6 '>
