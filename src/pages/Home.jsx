@@ -29,7 +29,7 @@ const data=[
     {img:img3,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
 ]
     return (
-        <div>
+        <div className=''>
            <Banner/> 
            <SectionTitle heading={'order online'} subheading={'From 11:00am to 10:00pm'} />
            <Category/>

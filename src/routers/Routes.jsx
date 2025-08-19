@@ -7,6 +7,8 @@ import '../layoutes/Main.css'
 import OurMenu from "../pages/ourMenu/OurMenuPage";
 import OurShop from "../pages/ourShop/OurShop";
 import ContactUs from "../pages/contactUs/ContactUs";
+import Login from "../pages/authentication/Login";
+import Register from "../pages/authentication/Register";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -27,6 +29,14 @@ import ContactUs from "../pages/contactUs/ContactUs";
         {
           path:'/Contact_us',
           element:<ContactUs/>
+        },
+        {
+          path:'/login',
+          element:<Login/>
+        },
+        {
+          path:'/register',
+          element:<Register/>
         }
       ]
     },

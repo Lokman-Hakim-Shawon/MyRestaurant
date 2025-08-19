@@ -23,7 +23,7 @@ const OurMenuPage = () => {
         {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
 ]
     return (
-        <div>
+        <div className="">
             <OurMenuBanner heading={'our Menu'} subheading={'would you like to try a dish?'} img={img8}/>
             <SectionTitle heading={"today's offer"} subheading={"Don't miss"} />
             <MenuList list={list}/>
