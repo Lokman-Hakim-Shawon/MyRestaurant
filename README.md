@@ -1,6 +1,8 @@
 # React + Vite
 
 ![Project Logo](./public/fullhomepage.png)
+![Project Logo](./public/menupage.png)
+![Project Logo](./public/ourshoppage.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
