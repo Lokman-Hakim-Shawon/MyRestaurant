@@ -4,6 +4,15 @@
 ![Project Logo](./public/menupage.png)
 ![Project Logo](./public/ourshoppage.png)
 
+# Using Technologies
+<ul>
+<li>React</li>
+<li>React Router</li>
+<li>Tailwind CSS</li>
+<li>Daisy UI</li>
+<li>awesome react components </li>
+<li>awesome font icons </li>
+</ul>
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
