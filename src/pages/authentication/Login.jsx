@@ -1,6 +1,9 @@
 import React from 'react';
 import img1 from '../../assets/others/authentication1.png'
 import { Link } from 'react-router-dom';
+import { FaFacebookF } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Login = () => {
     return (
         <div className=' text-center  font-inter'>
@@ -27,6 +30,20 @@ const Login = () => {
                     Login
                  </button>
                  <p className="">You have an account <Link to='/register' className="cursor-pointer underline text-[#D1A054]">Register</Link></p>
+                    <div>
+                        <p className='font-inter'>Or Login With</p>
+                        <div className='flex justify-center items-center gap-x-8 py-8 '>
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <FaFacebookF />
+                        </div >
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <FaGoogle />
+                        </div>
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <FaGithub />
+                        </div>
+                        </div>
+                    </div>
             </form>
         </div>
         </div>
