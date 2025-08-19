@@ -33,13 +33,13 @@ const Login = () => {
                     <div>
                         <p className='font-inter'>Or Login With</p>
                         <div className='flex justify-center items-center gap-x-8 py-8 '>
-                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer text-3xl'>
                         <FaFacebookF />
                         </div >
-                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer text-3xl'>
                         <FaGoogle />
                         </div>
-                        <div className='p-2 border-2 border-black rounded-full cursor-pointer'>
+                        <div className='p-2 border-2 border-black rounded-full cursor-pointer text-3xl'>
                         <FaGithub />
                         </div>
                         </div>
