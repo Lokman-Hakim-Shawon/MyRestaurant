@@ -11,7 +11,7 @@ const Navbar = () => {
     <Link className='border-b-2 border-[#D1A054] lg:border-b-0'>Dashboard</Link>
     </>
     return (
-        <div className="navbar fixed z-20 bg-opacity-30 bg-black lg:bg-black text-white max-w-screen-xl ">
+        <div className="navbar fixed z-20 lg:bg-opacity-30 opacity-70 bg-black  text-white max-w-screen-xl ">
   <div className="navbar-start ">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
