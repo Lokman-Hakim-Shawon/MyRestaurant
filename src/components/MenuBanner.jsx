@@ -26,7 +26,7 @@ const MenuBanner = () => {
         adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi.
         Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.
       </p>
-      <button className="py-4 px-8 text-white uppercase font-medium border-b-4 border-b-white rounded-xl hover:border-[#BB8506] hover:text-[#BB8506] hover:bg-black">read more</button>
+      <a href='https://d7leadfinder.com/app/view-leads/19450664/' className="py-4 px-8 text-white uppercase font-medium border-b-4 border-b-white rounded-xl hover:border-[#BB8506] hover:text-[#BB8506] hover:bg-black">read more</a>
         </div>
     </div>
   </div>

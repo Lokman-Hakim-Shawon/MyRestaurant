@@ -14,6 +14,15 @@ const OurShop = () => {
         {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
         {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
         {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
+        {img:img1,title:'Caeser Salad',subtitle:'Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.'},
     ]
     return (
         <div className='mt-0'>

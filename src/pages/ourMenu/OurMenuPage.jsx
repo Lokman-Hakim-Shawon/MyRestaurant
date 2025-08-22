@@ -21,6 +21,24 @@ const OurMenuPage = () => {
         {photo:img4,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
         {photo:img5,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
         {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img1,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img2,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img3,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img4,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img5,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img1,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img2,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img3,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img4,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img5,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img1,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img2,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img3,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img4,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img5,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
+        {photo:img6,heading:'ROAST DUCK BREAST',title:'Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce'},
 ]
     return (
         <div className="">
@@ -36,6 +54,7 @@ const OurMenuPage = () => {
             <MenuItemsBanner heading={'dessert'} subheading={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'} img={img7} />
             <MenuList list={list}/>
             <MenuItemsBanner heading={'dessert'} subheading={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'} img={img7} />
+            
         </div>
     );
 };

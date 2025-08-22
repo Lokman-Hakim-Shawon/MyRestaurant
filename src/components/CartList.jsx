@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 
 const CartList = ({data}) => {
-    
+    const [allData,setAllData]=useState(false)
+    const totalData=allData?data:data.slice(0,6)
+    const positionRef=useRef(null)
+    const handleData=()=>{
+        if(allData && positionRef.current){
+            const elementTop = positionRef.current.getBoundingClientRect().top + window.scrollY
+            const offset = window.innerHeight* 0.4;
+            window.scrollTo({
+                top: elementTop-offset,
+                behavior:'smooth'
+            })
+        }
+        setAllData(!allData)
+    }
     return (
-        <div className='lg:grid lg:grid-cols-3 lg:justify-between lg:gap-x-8 '>
+        <div ref={positionRef} className='text-center py-8'>
+            <div className='lg:grid lg:grid-cols-3 lg:justify-between lg:gap-x-8 '>
         {
-            data.map((data,inx)=><div key={inx} className="card bg-base-100 w-72 lg:w-96 shadow-sm my-12 mx-auto">
+            totalData.map((data,inx)=><div key={inx} className="card bg-base-100 w-72 lg:w-96 shadow-sm my-12 mx-auto">
             <figure>
               <img
                 src={data.img}
@@ -20,6 +34,8 @@ const CartList = ({data}) => {
             </div>
           </div>)
         }
+        </div>
+        <button onClick={handleData} className='uppercase border-b-2 border-black lg:w-[20%] rounded-xl px-4 py-2 hover:bg-black hover:text-white bg-gray-200'>{allData?'less Card':'view all card'}</button>
         </div>
     );
 };
